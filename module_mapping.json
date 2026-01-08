@@ -1,0 +1,66 @@
+{
+  "Elements of Mathematics": {
+    "id": "MA4DSC1001",
+    "name": "MA4DSC1001 Elements of Mathematics (WP)"
+  },
+  "Elements of Computer Science (Part 1)": {
+    "id": "MA4DSC1002",
+    "name": "MA4DSC1002 Elements of Computer Science"
+  },
+  "Elements of Computer Science (Part 2)": {
+    "id": "MA4DSC1002",
+    "name": "MA4DSC1002 Elements of Computer Science"
+  },
+  "Elements of Statistics": {
+    "id": "MA4DSC1003",
+    "name": "MA4DSC1003 Elements of Statistics"
+  },
+  "Statistical Programming with R": {
+    "id": "MA4DSC1004",
+    "name": "MA4DSC1004 Statistical Programming with R"
+  },
+  "Data Mining": {
+    "id": "BA4WIN6008",
+    "name": "BA4WIN6008 Data Mining"
+  },
+  "Big Data Analytics": {
+    "id": "MA4DSC1008",
+    "name": "MA4DSC1008 Big Data Analytics"
+  },
+  "Information Visualization": {
+    "id": "MA4INF3022",
+    "name": "MA4INF3022 Informationsvisualisierung"
+  },
+  "Semantic Technologies": {
+    "id": "MA4WIN6010",
+    "name": "MA4WIN6010 Semantische Technologien"
+  },
+  "Numerical Optimization for Data Science": {
+    "id": "MA4FWB4503",
+    "name": "MA4FWB4503 Ausgewählte Kapitel der Mathematik C"
+  },
+  "Fundamentals of Environmental Remote Sensing": {
+    "id": "MA6FWB4302",
+    "name": "MA6FWB4302 Fundamentals of Environmental Remote Sensing"
+  },
+  "Introduction to Geoinformatics": {
+    "id": "MA6FWB4301",
+    "name": "MA6FWB4301 Introduction to Geoinformatics"
+  },
+  "Deutsch: Grundkurs I (A1.1)": {
+    "id": "MA2FWB1155",
+    "name": "MA2FWB1155 Deutsch: Grundkurs I (A1.1)"
+  },
+  "Deutsch: Grundkurs II (A1.2)": {
+    "id": "MA2FWB1156",
+    "name": "MA2FWB1156 Deutsch: Grundkurs II (A1.2)"
+  },
+  "Deutsch: Aufbaukurs I (A2.1)": {
+    "id": "MA2FWB1157",
+    "name": "MA2FWB1157 Deutsch: Aufbaukurs I (A2.1)"
+  },
+  "Deutsch: Aufbaukurs II (A2.2)": {
+    "id": "MA2FWB1158",
+    "name": "MA2FWB1158 Deutsch: Aufbaukurs II (A2.2)"
+  }
+}

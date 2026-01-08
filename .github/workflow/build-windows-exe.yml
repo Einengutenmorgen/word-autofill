@@ -1,0 +1,40 @@
+name: Build Windows EXE
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build (PyInstaller)
+        run: |
+          pyinstaller --noconfirm --clean --windowed --onedir `
+            --name Uni_Anerkennung `
+            --add-data "template.docx;." `
+            --add-data "module_mapping.json;." `
+            app.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Uni_Anerkennung-windows
+          path: dist/Uni_Anerkennung/**
